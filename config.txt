@@ -1,9 +1,0 @@
-# Don't make changes to this file unless you know what you are doing mistakes can cause massive problems
-modelPath - Prints.h5
-camera - 0
-showP - True
-
-
-localDir - C:\Users\gmtow\PycharmProjects\PrintChecker
-email - gmtower1@gmail
-localDir - C:\Users\gmtow\source\repos\PrintEye\PrintEye\bin\Debug
