@@ -1,0 +1,10 @@
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\bin\Debug\PrintEye.exe.config
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\bin\Debug\PrintEye.exe
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\bin\Debug\PrintEye.pdb
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\obj\Debug\PrintEye.csprojAssemblyReference.cache
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\obj\Debug\PrintEye.Form1.resources
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\obj\Debug\PrintEye.Properties.Resources.resources
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\obj\Debug\PrintEye.csproj.GenerateResource.cache
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\obj\Debug\PrintEye.csproj.CoreCompileInputs.cache
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\obj\Debug\PrintEye.exe
+C:\Users\gmtow\source\repos\PrintEye\PrintEye\obj\Debug\PrintEye.pdb
