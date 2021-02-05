@@ -1,3 +1,0 @@
-0 Success
-1 Fails
-2 Off_The_Part
