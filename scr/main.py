@@ -15,7 +15,7 @@ if UI.Query_Config("email - ") is None:
 else:
     print("\u001b[35mWe will user [ ", UI.Query_Config("email - "), " ] as the user email")
 
-OID.Process(camera=1)
+OID.Process(camera=0)
 #try:
 #    OID.Process(camera=0)
 #except:
