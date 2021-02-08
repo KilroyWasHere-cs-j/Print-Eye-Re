@@ -1,7 +1,9 @@
 # Print-Eye-Re
 Print Eyes release repo
 
+# V1 Setup
 
+- Open folder scr start main.py
 
 # SetUp
 
