@@ -21,3 +21,12 @@ def Hello():
     server.login("printeye2021@gmail.com", "PrintEyeAdmin")
     server.sendmail("printeye2021@gmail.com", UI.Query_Config("email - "), "Hello Welcome to print eye")
     print("Sent")
+
+
+def Failure():
+    receiver = UI.Query_Config("email - ")
+    server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+    server.login("printeye2021@gmail.com", "PrintEyeAdmin")
+    server.sendmail("printeye2021@gmail,com", UI.Query_Config("email - "), "Print Failure")
+    print("Failure reported")
+

@@ -8,6 +8,7 @@ import UI
 
 holdover = cv2.imread("Success.jpg")
 frameMain = cv2.imread("Success.jpg")
+holdFrame = cv2.imread("Success.jpg")
 
 def interpret_output(pre):
     # This function is very much a sin, but I'm not changing it. Programing 101
@@ -24,13 +25,19 @@ def interpret_output(pre):
     if one > two:
         print("One: ", one, two)
         print("Success")
-        Math.MSE(holdover, frameMain)
     elif two > one:
         print("Two: ", two)
         print("Failure")
         UI.Print_Failure()
     else:
         print("Error")
+
+
+
+def setupImages():
+    copy = cv2.imread("Frame_Copy.jpg")
+    cv2.imwrite("Frame.jpg", copy)
+    cv2.imwrite("Holdover.jpg", copy)
 
 
 def Process(camera):
@@ -40,6 +47,7 @@ def Process(camera):
     while True:
         ret, frame = cap.read()
         # frame = cv2.imread("")
+        holdFrame = frame
         np.set_printoptions(suppress=True)
         # Load the model
         model = tensorflow.keras.models.load_model('Prints.h5')
@@ -47,7 +55,7 @@ def Process(camera):
         # The 'length' or number of images you can put into the array is
         # determined by the first position in the shape tuple, in this case 1.
         data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
-        #Math.MSE(frame, holdover)
+        Math.MSE()
         # cv2.imread("Frame.jpg", frame)
         holdover = frame
         # Replace this with the path to your image
@@ -77,6 +85,7 @@ def Process(camera):
             print("\u001b[34mTime:", t1 - t0)
         else:
             print("")
+        cv2.imwrite("Frame.jpg", holdFrame)
         interpret_output(pre=pre)
 
 

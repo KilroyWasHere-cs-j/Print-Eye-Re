@@ -2,5 +2,3 @@
 modelPath - Prints.h5
 camera - 0
 showP - True
-localDir - C:\Users\gmtow\PycharmProjects\PrintChecker
-email - gmtower1@gmail.com

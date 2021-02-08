@@ -49,7 +49,7 @@ def Speak(mes):
 def Print_Failure():
     Warning()
     FH.Update_Log("Print Failure detected")
-    M.Send_Email("Failure at " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    M.Failure()
     decision = input("Do you wish to continue print monitoring? True/False: ")
     if decision == "True":
         print("Attempting to continue")
